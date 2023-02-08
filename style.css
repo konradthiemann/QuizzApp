@@ -1,0 +1,77 @@
+body{
+    background-color: #FEFAEF !important;
+}
+
+.outerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.card{
+    min-height: 500px;
+    width: 450px;
+    text-align: center;
+    align-items: center;
+    background-image: url('img/brainbg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    object-fit: fill;
+    display: flex;
+    justify-content: center;    
+}
+
+.card img{
+    width: 220px;
+    margin: 10px 0;
+  }
+
+.startScreen{
+    justify-content: space-evenly;
+}
+
+.btn{
+    margin-bottom: 10px;
+    width: 95%;
+}
+
+.progress{
+    width: 95%;
+}
+
+.footerQiuzCard{
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid black;
+}
+
+.footerQiuzCard p{
+    padding: 0;
+    margin: 0;
+}
+
+.footerQiuzCard button{
+    width: 120px;
+}
+
+.disableButton {
+    opacity: 0.5;
+    cursor: default;
+    pointer-events: none;
+  }
+
+  .resultCard button{
+    width: 120px;
+  }
+
+  .resultCard img{
+    width: 120px;
+  }
